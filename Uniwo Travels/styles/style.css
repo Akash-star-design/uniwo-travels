@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.webpage-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.webpage-section .webpage-wrapper {
+  /*----------Footer Code Start Here-----------*/
+}
+.webpage-section .webpage-wrapper .uniwo-travel-content-parent {
+  display: flex;
+  justify-content: center;
+}
+.webpage-section .webpage-wrapper .uniwo-travel-content-parent a {
+  text-decoration: none;
+  color: white;
+}
+.webpage-section .webpage-wrapper .uniwo-travel-content-parent .uniwo-travel-content-child {
+  margin: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-travel-content-parent .uniwo-travel-content-child img {
+  border-radius: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-travel-content-parent .uniwo-travel-content-child p {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: -4rem;
+  margin-left: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent .uniwo-banner-content-child {
+  margin: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent .uniwo-banner-content-child img {
+  width: 37rem;
+  border-radius: 0.3rem;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent .uniwo-banner-content-child h1 {
+  margin-top: -13rem;
+  margin-left: 2rem;
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent .uniwo-banner-content-child p {
+  font-size: 1rem;
+  margin-left: 2rem;
+  color: white;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent .uniwo-banner-content-child button {
+  margin-left: 2rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  border: 2px solid white;
+  padding: 0.3rem;
+  width: 12rem;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-banner-content-parent .uniwo-banner-content-child button:hover {
+  background-color: white;
+  color: rgb(48, 50, 50);
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent {
+  background-color: #F9F9F9;
+  margin: 2rem;
+  padding: 2rem;
+  border-bottom: 2px solid rgb(164, 158, 158);
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .uniwo-popular-package-child .popular-package-head-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .uniwo-popular-package-child .popular-package-head-parent .popular-package-head-child p {
+  font-size: 1.3rem;
+  margin: 0.5rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .uniwo-popular-package-child .popular-package-head-parent .popular-package-head-child p:nth-child(2) {
+  font-size: 1rem;
+  color: rgb(48, 46, 46);
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .uniwo-popular-package-child .popular-package-head-parent .view-more-package a {
+  text-decoration: none;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .uniwo-popular-package-child .popular-package-head-parent .view-more-package p {
+  font-size: 1rem;
+  color: rgb(226, 218, 218);
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .uniwo-popular-package-child .popular-package-head-parent .view-more-package p:hover {
+  color: black;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent {
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child {
+  display: flex;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent {
+  border-radius: 0.2rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child {
+  border: 1px solid white;
+  margin: 1rem;
+  background-color: #F9F9F9;
+  border-radius: 0.2rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .package-image p {
+  position: absolute;
+  margin: 1rem;
+  background-color: rgb(8, 8, 118);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .package-image img {
+  width: 24rem;
+  justify-content: center;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-sub-title-package p {
+  text-align: left;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-package-view-parent .uniwo-package-view-child {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-package-view-parent .uniwo-package-view-child p {
+  font-size: 1rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-package-view-parent .uniwo-package-view-child p:nth-child(1) {
+  color: black;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-package-view-parent .uniwo-package-view-child p:nth-child(2) {
+  color: rgb(215, 168, 107);
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-package-view-parent .uniwo-package-view-child button {
+  font-size: 0.8rem;
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.webpage-section .webpage-wrapper .popular-package-top-head-parent .popular-package-top-head-child .uniwo-popular-package-parent .top-parent .top-child .uniwo-package-banner-parent .uniwo-package-banner-child .uniwo-package-view-parent .uniwo-package-view-child button:hover {
+  background-color: red;
+  color: white;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent {
+  background-color: #F9F9F9;
+  margin: 2rem;
+  padding: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .uniwo-reviews-child .reveiw-head-parent {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(143, 134, 134, 0.292);
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .uniwo-reviews-child .reveiw-head-parent .review-head-child:nth-child(1) {
+  border-right: 1px solid rgba(143, 134, 134, 0.292);
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .uniwo-reviews-child .reveiw-head-parent .review-head-child:nth-child(2) {
+  border-right: 1px solid rgba(143, 134, 134, 0.292);
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .uniwo-reviews-child .reveiw-head-parent .review-head-child:nth-child(3) {
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .uniwo-reviews-child .reveiw-head-parent .review-head-child p {
+  font-size: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .uniwo-reviews-child .reveiw-head-parent .review-head-child p:nth-child(2) {
+  font-size: 1.5rem;
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .reviews-image-parent {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(143, 134, 134, 0.292);
+}
+.webpage-section .webpage-wrapper .uniwo-reviews-parent .reviews-image-parent .reviews-image-child img {
+  width: 13rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child {
+  display: flex;
+  justify-content: center;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent {
+  padding: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images {
+  display: flex;
+  border-right: 1px solid rgba(143, 134, 134, 0.292);
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child {
+  padding: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child img {
+  width: 10rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child img:nth-child(4) {
+  padding: 0.5rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child img:nth-child(3) {
+  padding: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child h2 {
+  font-size: 1.5rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child p {
+  font-size: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child p:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child p:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child p:nth-child(3) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.webpage-section .webpage-wrapper .uniwo-store-details-parent .uniwo-store-details-child .uniwo-mobile-store-parent .uniwo-mobile-store-child .store-images .store-images-child button {
+  font-size: 1rem;
+  margin: 1rem;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background-color: rgb(3, 3, 93);
+  color: white;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-image-parent .uniwo-footer-image-child img {
+  width: 100%;
+  height: 20rem;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-image-parent .uniwo-footer-image-child p {
+  margin-top: -15rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-image-parent .uniwo-footer-image-child input {
+  align-items: center;
+  margin-left: 35rem;
+  font-size: 1.2rem;
+  border: none;
+  width: 20rem;
+  background-color: rgba(249, 249, 249, 0.4392156863);
+  border-radius: 0.2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-image-parent .uniwo-footer-image-child .input-parent input {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  border: none;
+  width: 20rem;
+  background-color: rgba(249, 249, 249, 0.4392156863);
+}
+.webpage-section .webpage-wrapper .uniwo-footer-image-parent .uniwo-footer-image-child .input-parent button {
+  font-size: 1.2rem;
+  width: 10rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border: 2px solid white;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent .uniwo-footer-last-child {
+  padding: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent .uniwo-footer-last-child p {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent .uniwo-footer-last-child p:nth-child(1) {
+  font-size: 1.2rem;
+  color: blue;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent .uniwo-footer-last-child p:nth-child(2) {
+  font-size: 1.2rem;
+  color: blue;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent .uniwo-footer-last-child p:nth-child(3) {
+  font-size: 2rem;
+}
+.webpage-section .webpage-wrapper .uniwo-footer-last-parent .uniwo-footer-last-child i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.webpage-section .webpage-wrapper .uniwo-copyrights {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #6e6c6c;
+}/*# sourceMappingURL=style.css.map */
